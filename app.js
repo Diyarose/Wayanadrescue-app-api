@@ -25,6 +25,8 @@ app.post("/adminSignup", (req, res) => {
     result.save()
     res.json({ "status": "success" })
 })
+
+
 app.listen(8080, () => {
     console.log("Server started")
 })
